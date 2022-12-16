@@ -32,7 +32,7 @@ margin: auto;
 .logo-box {
 width: 185px;
 height: 50px;
-margin-right: 114px;
+margin-right: 100px;
 transition: color 0.4s ease,
 opacity 0.4s ease;
 }
@@ -60,7 +60,7 @@ opacity 0.4s ease;
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
-  margin-right: 40px;
+  margin-right: 50px;
 }
 .navbar > ul > li {
   margin-right: 32px;
@@ -90,9 +90,10 @@ opacity 0.4s ease;
 
 /* button styles */
 .btn {
+width: 193px;
 background-color: #de2e54;
 color: #fff;
-padding: 12px 25px;
+padding: 12px 21px;
 border-radius: 8px;
 text-decoration: none;
 font-weight: 700;
@@ -151,6 +152,9 @@ margin-bottom: 16px;
 }
 
 /* Second Section */
+.services {
+  padding-bottom: 120px;
+}
 .services-heading {
   text-align: center;
   font-weight: 700;
@@ -167,4 +171,89 @@ margin-bottom: 16px;
   padding-right: 20px;
   margin: auto;
   margin-top: 56px;
+  margin-bottom: 60px;
+}
+
+.services-items {
+  display: flex;
+  align-items: center;
+}
+
+.services-info {
+margin-left: 64px;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.services-info > h3 {
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #222;
+margin-bottom: 24px;
+}
+
+.services-info > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444;
+}
+
+.services-items > img {
+  width: 200px;
+  height: 200px;
+}
+
+/* services button styles */
+.services-btn {
+  margin-left: 640px;
+  margin-right: 625px;
+}
+
+/* Third section */
+.booking {
+  width: 100%;
+  max-width: 1440px;
+  background-color:#0eb4c1;
+  color: #fff;
+  padding-bottom: 64px;
+}
+.booking-header {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  padding-top: 64px;
+  margin-bottom: 40px;
+}
+.booking-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.booking-options > a {
+  color: #fff;
+  text-decoration: none;
+  background-color: inherit;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  padding: 12px 24px;
+  transition: background-color 0.4s ease,
+  color 0.4s ease, opacity 0.4s ease;
+
+}
+
+.booking-call {
+  margin-right: 40px;
+}
+.booking-options > a:hover {
+  background-color: #de2e54;
+  color: #fff;
+  border: none;
+}
+
+.booking-options > a:active {
+  opacity: 0.6;
 }
