@@ -257,3 +257,70 @@ margin-bottom: 24px;
 .booking-options > a:active {
   opacity: 0.6;
 }
+
+/* Site footer */
+.site-footer {
+  width: 100%;
+  max-width: 1440px;
+  padding: 24px;
+  background-color: #222;
+}
+
+.footer-navbar > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin-right: 50px;
+}
+
+.footer-navbar > ul > li {
+  margin-right: 32px;
+}
+.footer-navbar > ul > li:last-child {
+  margin-right: 0;
+}
+
+.footer-navbar > ul > li > a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.4s ease,
+  opacity 0.4s ease
+}
+
+.footer-navbar > ul > li > a:hover {
+color: #de2e54;
+}
+
+.footer-navbar > ul > li > a:active {
+  opacity: 0.6;
+}
+
+/* Footer logo styles */
+.footer-logo-box {
+  margin-right: 420px;
+}
+
+.footer-logo-box:active {
+  opacity: 0.6;
+}
+
+.footer-heading {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 16px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.4s ease;
+}
+.footer-heading:hover {
+  color: #de2e54;
+}
