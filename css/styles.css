@@ -153,6 +153,8 @@ margin-bottom: 16px;
 
 /* Second Section */
 .services {
+  width: 100%;
+  max-width: 1440px;
   padding-bottom: 120px;
 }
 .services-heading {
@@ -207,8 +209,8 @@ margin-bottom: 24px;
 
 /* services button styles */
 .services-btn {
-  margin-left: 640px;
-  margin-right: 625px;
+  margin-left: 620px;
+  margin-right: 615px;
 }
 
 /* Third section */
