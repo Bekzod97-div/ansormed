@@ -332,5 +332,6 @@ color: #de2e54;
 }
 
 .footer-navbar > ul > li > a:active {
+  color: #fff;
   opacity: 0.6;
 }
