@@ -150,6 +150,13 @@ margin-bottom: 16px;
   margin-bottom: 36px;
 }
 
+.hero-btn:hover {
+background-color: rgba(222, 46, 84, 0.8);
+color: #fff;
+border: transparent;
+padding: 12px 24px;
+}
+
 .hero-img {
   display: block;
   width: 424px;
@@ -184,6 +191,7 @@ margin-bottom: 16px;
 .services-items {
   display: flex;
   align-items: center;
+  list-style-type: none;
 }
 
 .services-info {
@@ -217,6 +225,12 @@ margin-bottom: 24px;
   margin: 0;
   margin-left: 610px;
   margin-right: 605px;
+}
+.services-btn:hover {
+  background-color: rgba(222, 46, 84, 0.8);
+  color: #fff;
+  border: transparent;
+  padding: 12px 24px;
 }
 
 /* Third section */
